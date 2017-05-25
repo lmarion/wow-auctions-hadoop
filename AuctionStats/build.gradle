@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+repositories {
+
+	mavenCentral()
+
+}
+
+sourceCompatibility=1.8
+targetCompatibility=1.8
+
+dependencies
+{
+	compile 'org.apache.hadoop:hadoop-tools:0.20.2'
+	//compile 'hadoop:hadoop-0.20.2-ant'
+	compile 'org.apache.hadoop:hadoop-core:0.20.2'
+	compile 'com.google.code.gson:gson:2.2.4'
+	compile 'org.apache.wink:wink-common:1.4'
+	compile 'org.apache.wink:wink-client:1.4'
+	//compile 'activation-1.1'
+	//compile 'jaxb-api-2.2'
+	//compile 'jaxb-impl-2.2.1.1'
+	//compile 'slf4j-api-1.6.1'
+	//compile 'slf4j-simple-1.6.1'
+
+	
+}
